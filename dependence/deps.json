@@ -1,0 +1,354 @@
+{
+  "dependencies": [
+    {
+      "name": "cpp-expert",
+      "type": "skill",
+      "source_url": "local://cpp-expert",
+      "license": "MIT",
+      "version": "local",
+      "install": "sms:install cpp-expert",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "c-expert",
+      "type": "skill",
+      "source_url": "local://c-expert",
+      "license": "MIT",
+      "version": "local",
+      "install": "sms:install c-expert",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "python-expert",
+      "type": "skill",
+      "source_url": "local://python-expert",
+      "license": "MIT",
+      "version": "local",
+      "install": "sms:install python-expert",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "qt-qtquick-expert",
+      "type": "skill",
+      "source_url": "local://qt-qtquick-expert",
+      "license": "MIT",
+      "version": "local",
+      "install": "sms:install qt-qtquick-expert",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "interface-design-expert",
+      "type": "skill",
+      "source_url": "local://interface-design-expert",
+      "license": "MIT",
+      "version": "local",
+      "install": "sms:install interface-design-expert",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "code-guidelines",
+      "type": "skill",
+      "source_url": "local://code-guidelines",
+      "license": "unknown",
+      "version": "local",
+      "install": "sms:install code-guidelines",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "file_ops",
+      "type": "skill",
+      "source_url": "local://skill_manage_system",
+      "license": "unknown",
+      "version": "local",
+      "install": "sms:install skill_manage_system",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "git",
+      "type": "software",
+      "source_url": "https://github.com/git/git",
+      "license": "GPL-2.0",
+      "version": "system",
+      "install": "winget install Git.Git",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "python",
+      "type": "software",
+      "source_url": "https://www.python.org/",
+      "license": "PSF-2.0",
+      "version": "3.11+",
+      "install": "winget install Python.Python.3.12",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "PowerShell",
+      "type": "software",
+      "source_url": "https://github.com/PowerShell/PowerShell",
+      "license": "MIT",
+      "version": "5.1 / 7.x",
+      "install": "winget install Microsoft.PowerShell",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "MSVC Build Tools",
+      "type": "software",
+      "source_url": "https://visualstudio.microsoft.com/downloads/",
+      "license": "proprietary",
+      "version": "VS 2022 (14.3x+)",
+      "install": "winget install Microsoft.VisualStudio.2022.BuildTools",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "Windows SDK",
+      "type": "software",
+      "source_url": "https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/",
+      "license": "proprietary",
+      "version": "10.0.22621+",
+      "install": "winget install Microsoft.WindowsSDK",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": ".NET SDK",
+      "type": "software",
+      "source_url": "https://github.com/dotnet/runtime",
+      "license": "MIT",
+      "version": "8.0",
+      "install": "winget install Microsoft.DotNet.SDK.8",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "Windows Performance Toolkit",
+      "type": "software",
+      "source_url": "https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install",
+      "license": "proprietary",
+      "version": "ADK 11",
+      "install": "online: adksetup",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "WinDbg",
+      "type": "software",
+      "source_url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/",
+      "license": "proprietary",
+      "version": "X / preview",
+      "install": "winget install Microsoft.WinDbg",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "Accessibility Insights for Windows",
+      "type": "software",
+      "source_url": "https://github.com/microsoft/accessibility-insights-windows",
+      "license": "MIT",
+      "version": "1.x",
+      "install": "winget install Microsoft.AccessibilityInsightsWindows",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "vswhere",
+      "type": "software",
+      "source_url": "https://github.com/microsoft/vswhere",
+      "license": "unknown",
+      "version": "3.x",
+      "install": "bundled with Visual Studio installer",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "microsoft/WindowsAppSDK",
+      "type": "repo",
+      "source_url": "https://github.com/microsoft/WindowsAppSDK",
+      "license": "MIT",
+      "version": "1.6",
+      "install": "git clone https://github.com/microsoft/WindowsAppSDK",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "microsoft/microsoft-ui-xaml",
+      "type": "repo",
+      "source_url": "https://github.com/microsoft/microsoft-ui-xaml",
+      "license": "MIT",
+      "version": "1.6",
+      "install": "git clone https://github.com/microsoft/microsoft-ui-xaml",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "microsoft/windows-rs",
+      "type": "repo",
+      "source_url": "https://github.com/microsoft/windows-rs",
+      "license": "MIT",
+      "version": "0.58",
+      "install": "cargo add windows",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "dotnet/wpf",
+      "type": "repo",
+      "source_url": "https://github.com/dotnet/wpf",
+      "license": "MIT",
+      "version": "8.0",
+      "install": "git clone https://github.com/dotnet/wpf",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "dotnet/winforms",
+      "type": "repo",
+      "source_url": "https://github.com/dotnet/winforms",
+      "license": "MIT",
+      "version": "8.0",
+      "install": "git clone https://github.com/dotnet/winforms",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "PowerShell/PowerShell",
+      "type": "repo",
+      "source_url": "https://github.com/PowerShell/PowerShell",
+      "license": "MIT",
+      "version": "7.x",
+      "install": "git clone https://github.com/PowerShell/PowerShell",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "wixtoolset/wix4",
+      "type": "repo",
+      "source_url": "https://github.com/wixtoolset/wix4",
+      "license": "unknown",
+      "version": "4.x",
+      "install": "dotnet tool install --global wix",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "Inno Setup",
+      "type": "software",
+      "source_url": "https://jrsoftware.org/isinfo.php",
+      "license": "other",
+      "version": "6.x",
+      "install": "winget install JRSoftware.InnoSetup",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "microsoft/winget-cli",
+      "type": "repo",
+      "source_url": "https://github.com/microsoft/winget-cli",
+      "license": "MIT",
+      "version": "1.x",
+      "install": "winget install Microsoft.DesktopAppInstaller",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "Kitware/CMake",
+      "type": "repo",
+      "source_url": "https://github.com/Kitware/CMake",
+      "license": "BSD-3-Clause",
+      "version": "3.29+",
+      "install": "winget install Kitware.CMake",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "rust-lang/rust",
+      "type": "repo",
+      "source_url": "https://github.com/rust-lang/rust",
+      "license": "MIT/Apache-2.0",
+      "version": "stable",
+      "install": "winget install Rustlang.Rustup",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "Windows App SDK docs",
+      "type": "doc",
+      "source_url": "https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/",
+      "license": "CC-BY-4.0",
+      "version": "1.6",
+      "install": "online",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "MSIX docs",
+      "type": "doc",
+      "source_url": "https://learn.microsoft.com/en-us/windows/msix/",
+      "license": "CC-BY-4.0",
+      "version": "n/a",
+      "install": "online",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "Authenticode docs",
+      "type": "doc",
+      "source_url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/install/authenticode",
+      "license": "CC-BY-4.0",
+      "version": "n/a",
+      "install": "online",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "ETW docs",
+      "type": "doc",
+      "source_url": "https://learn.microsoft.com/en-us/windows/win32/etw/event-tracing-portal",
+      "license": "CC-BY-4.0",
+      "version": "n/a",
+      "install": "online",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "High DPI docs",
+      "type": "doc",
+      "source_url": "https://learn.microsoft.com/en-us/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows",
+      "license": "CC-BY-4.0",
+      "version": "n/a",
+      "install": "online",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "UIA docs",
+      "type": "doc",
+      "source_url": "https://learn.microsoft.com/en-us/windows/uwp/design/accessibility/accessibility",
+      "license": "CC-BY-4.0",
+      "version": "n/a",
+      "install": "online",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "PowerShell 5.1 to 7 docs",
+      "type": "doc",
+      "source_url": "https://learn.microsoft.com/en-us/powershell/scripting/whats-new/migrating-from-windows-powershell-51-to-powershell-7",
+      "license": "CC-BY-4.0",
+      "version": "n/a",
+      "install": "online",
+      "checked_at": "2026-10-07T07:50",
+      "source_url_status": "verified"
+    }
+  ]
+}
